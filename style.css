@@ -7,10 +7,7 @@ border: border-box;
 
 }
 .techback-logo{
-background-image:url("techlogo.jpg");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
+background-color:blue;
 width:100%;
 height:30px;
 
