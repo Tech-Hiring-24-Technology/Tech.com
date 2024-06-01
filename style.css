@@ -83,13 +83,15 @@ background-color:yellow;
 }
 #text-1{
 margin-left:350px;
-width:500px;
+width:600px;
+height:100px;
 background-color:green;
 }
 #text-2{
 margin-top:-50px;
 margin-left:275px;
-width:400px;
+width:500px;
+height:100px;
 background-color:red;
 }
 .suggestion-text{
