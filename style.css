@@ -9,8 +9,9 @@ border: border-box;
 background-color:#FEECE2;
 }
 .techback-logo{
-background-color:blue;
+background-image:url("image/techlogo.jpg");
+background-size:cover;
 width:100%;
-height:300px;
+height:700px;
 
 }
