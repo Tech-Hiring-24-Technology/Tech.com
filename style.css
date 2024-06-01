@@ -11,12 +11,10 @@ background-color:#FEECE2;
 .techback-logo{
 width:100%;
 height:1400px;
-
-
 }
 .techlogo{
 width:100%;
-height:1000px;
+height:1100px;
 background-image:url("images/techlogo.jpg");
 background-size:cover; 
 }
