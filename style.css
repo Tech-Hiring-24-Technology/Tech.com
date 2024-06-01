@@ -4,11 +4,13 @@ width:100%;
 height:auto;
 font-family: Arial;
 border: border-box;
-
+}
+.body{
+background-color:#FEECE2;
 }
 .techback-logo{
 background-color:blue;
 width:100%;
-height:30px;
+height:300px;
 
 }
