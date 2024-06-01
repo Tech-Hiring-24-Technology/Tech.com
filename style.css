@@ -1,0 +1,274 @@
+*{
+margin: 0;
+width:100%;
+height:auto;
+font-family: Arial;
+border: border-box;
+}
+.body{
+background-color:#FEECE2;
+}
+.techback-logo{
+width:100%;
+height:1400px;
+
+
+}
+.techlogo{
+width:100%;
+height:800px;
+background-image:url("images/techlogo.jpg");
+background-size:cover; 
+}
+.box{
+position:relative;
+width:100%px;
+height:1400px;
+background:transparent;
+border:1px solid #fff;
+z-index:1;
+
+}
+.box:before {
+content: '';
+position:absolute;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.5);
+z-index:-1;
+}
+.menubar{
+width:95%;
+height:55px;
+border-radius:25px;
+background-color:#C7C8CC;
+margin-top:15px;
+margin-left:15px;
+position:fixed;
+display:flex;
+justify-content:space-evenly;
+align-items:center;
+}
+.circle-logo{
+width:47px;
+height:47px;
+margin-left:-8px;
+border-radius:50%;
+background-image:url("images/techlogo.jpg");
+background-size:cover;
+}
+.menu-title{
+width:80%;
+height:40px;
+display:flex;
+align-items:center;
+justify-content:space-evenly;
+margin-left:10px;
+font-size:25px;
+}
+.outer-bar{
+width:43px;
+height:43px;
+}
+.bar{
+background-image:url("images/bar.png");
+background-size:cover;
+width:100%;
+height:100%;
+}
+.box-text{
+color:#FF6500;
+font-size:45px;
+margin-top:850px;
+width:100%;
+}
+#text-1{
+margin-left:250px;
+width:308px;
+}
+#text-2{
+margin-top:-50px;
+margin-left:275px;
+width:200px;
+}
+.suggestion-text{
+width:50%;
+height:60px;
+color:white;
+font-size:20px;
+margin-left:235px;
+margin-top:30px;
+}
+#text-3{
+margin-left:70px;
+width:200px;
+
+}
+
+
+.apply-btn{
+width:100%;
+height:100px;
+margin-top:130px;
+display:flex;
+align-items:center;
+justify-content:space-evenly;
+}
+.apply-btn button{
+width:150px;
+height:55px;
+font-size:17px;
+border-radius:30px;
+color:white;
+border:1px solid white;
+background:rgba(0,0,0,.0);
+}
+.btn:hover{
+animation:pulsate 2s ease-in-out;
+}
+@keyframes pulsate {
+     30%{
+      box-shadow:
+      0 0 20px #5ddcff;
+      animation:infinite;
+      }
+      
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+.techback-logo{
+width:100%;
+height:700px;
+
+
+}
+.techlogo{
+width:100%;
+height:400px;
+background-image:url("images/techlogo.jpg");
+background-size:cover; 
+}
+
+.box{
+position:relative;
+width:359px;
+height:700px;
+background:transparent;
+border:1px solid #fff;
+z-index:1;
+
+}
+.box:before {
+content: '';
+position:absolute;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.5);
+z-index:-1;
+
+}
+.menubar{
+width:95%;
+height:55px;
+position:fixed;
+border-radius:25px;
+background-color:#C7C8CC;
+margin-top:15px;
+margin-left:8px;
+display:flex;
+align-items:center;
+justify-content:space-evenly;
+}
+.circle-logo{
+width:47px;
+height:47px;
+margin-left:-5px;
+border-radius:50%;
+background-image:url("images/techlogo.jpg");
+background-size:cover;
+}
+.menu-title{
+width:210px;
+height:40px;
+font-size:18px;
+}
+.outer-bar{
+width:43px;
+height:43px;
+}
+.bar{
+background-image:url("images/bar.png");
+background-size:cover;
+width:100%;
+height:100%;
+}
+.box-text{
+color:#FF6500;
+font-size:40px;
+margin-top:400px;
+width:308px;
+}
+#text-1{
+margin-left:50px;
+}
+#text-2{
+margin-top:-50px;
+margin-left:70px;
+width:288px;
+}
+.suggestion-text{
+width:80%;
+height:40px;
+color:white;
+font-size:17px;
+margin-left:40px;
+}
+#text-3{
+margin-left:50px;
+width:200px;
+
+}
+
+.apply-btn{
+width:100%;
+height:100px;
+margin-top:50px;
+display:flex;
+align-items:center;
+justify-content:space-evenly;
+}
+.apply-btn button{
+width:150px;
+height:55px;
+font-size:17px;
+border-radius:30px;
+color:white;
+border:1px solid white;
+background:rgba(0,0,0,.0);
+}
+.btn:hover{
+animation:pulsate 2s ease-in-out;
+}
+@keyframes pulsate {
+     30%{
+      box-shadow:
+      0 0 20px #5ddcff;
+      animation:infinite;
+      }
+      
+   }
+}
