@@ -1,6 +1,7 @@
 *{
 margin: 0;
 width:100%;
+height:auto;
 font-family: Arial;
 border: border-box;
 background-color:#FEECE2;
@@ -10,6 +11,5 @@ background-image:url("techlogo.jpg");
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
-width:100%;
-height:300px;
+
 }
