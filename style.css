@@ -142,6 +142,66 @@ animation:pulsate 2s ease-in-out;
       }
       
    }
+.content{
+background-color:#FEECE2;
+width:100%;
+height:4000px;
+
+}
+.outer-1{
+display:flex;
+justify-content:space-evenly;
+
+}
+.who-we-are{
+width:90%;
+height:570px;
+margin-top:50px;
+background-color:white;
+border-radius:30px;
+}
+.who-we-are img{
+border-radius:30px;
+height:300px;
+}
+.who-we-are h1{
+font-size:35px;
+margin-top:20px;
+margin-left:20px;
+height:80px;
+}
+.who-we-are p{
+font-family:arial;
+font-size:20px;
+margin-left:20px;
+}
+.outer-2{
+margin-top:70px;
+width:100%;
+height:500px;
+background-color:white;
+}
+.space{
+height:450px;
+width:360px;
+position:absolute;
+margin-top:100px;
+text-align:center;
+}
+.outer-2 p{
+font-family:arial;
+font-size:28px;
+}
+.space img{
+margin-top:20px;
+width:80px;
+height:80px;
+border-radius:50%;
+}
+
+
+
+
 
 
 
