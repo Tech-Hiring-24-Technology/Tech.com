@@ -221,10 +221,11 @@ height:100%;
 color:#FF6500;
 font-size:40px;
 margin-top:400px;
-width:308px;
+width:200px;
 }
 .text-1{
 margin-left:50px;
+width:310px;
 }
 .text-2{
 margin-top:-50px;
@@ -237,12 +238,11 @@ height:40px;
 color:white;
 font-size:17px;
 margin-left:40px;
-background-color:yellow;
 }
 .text-3{
 margin-left:50px;
 width:200px;
-background-color:blue;
+
 }
 
 .apply-btn{
@@ -268,9 +268,10 @@ animation:pulsate 2s ease-in-out;
 @keyframes pulsate {
      30%{
       box-shadow:
-      0 0 20px #5ddcff;
+      0 0 40px #5ddcff;
       animation:infinite;
       }
       
-   }
+     }
+
 }
