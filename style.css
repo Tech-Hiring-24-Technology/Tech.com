@@ -81,12 +81,12 @@ margin-top:1100px;
 width:100%;
 
 }
-#text-1{
+.text-1{
 margin-left:200px;
 width:600px;
 height:90px;
 }
-#text-2{
+.text-2{
 margin-top:-90px;
 margin-left:250px;
 width:500px;
@@ -223,10 +223,10 @@ font-size:40px;
 margin-top:400px;
 width:308px;
 }
-#text-1{
+.text-1{
 margin-left:50px;
 }
-#text-2{
+.text-2{
 margin-top:-50px;
 margin-left:70px;
 width:288px;
@@ -237,11 +237,12 @@ height:40px;
 color:white;
 font-size:17px;
 margin-left:40px;
+background-color:yellow;
 }
-#text-3{
+.text-3{
 margin-left:50px;
 width:200px;
-
+background-color:blue;
 }
 
 .apply-btn{
