@@ -79,6 +79,9 @@ background-size:cover;
 width:100%;
 height:100%;
 }
+.center{
+text-align:center;
+}
 .box-text{
 color:#FF6500;
 font-size:80px;
