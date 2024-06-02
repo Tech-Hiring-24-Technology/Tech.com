@@ -102,7 +102,7 @@ margin-left:130px;
 margin-top:30px;
 }
 .text-3{
-background-color:yellow;   
+background-color:blue;   
 margin-left:150px;
 width:390px;
 
@@ -116,8 +116,8 @@ align-items:center;
 justify-content:space-evenly;
 }
 .apply-btn button{
-width:170px;
-height:70px;
+width:220px;
+height:100px;
 font-size:17px;
 border-radius:30px;
 color:white;
