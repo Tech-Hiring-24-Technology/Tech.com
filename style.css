@@ -230,6 +230,7 @@ color:#FF6500;
 font-size:40px;
 margin-top:400px;
 width:200px;
+height:30px;
 }
 .text-1{
 margin-left:50px;
@@ -286,7 +287,6 @@ background-color:#FEECE2;
 width:100%;
 height:4000px;
 
-
 }
 .outer-1{
 display:flex;
@@ -338,5 +338,5 @@ width:80px;
 height:80px;
 border-radius:50%;
 }
-}
+
 }
