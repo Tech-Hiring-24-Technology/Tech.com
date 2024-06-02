@@ -94,17 +94,17 @@ height:100px;
 
 }
 .suggestion-text{
-width:100%;
+width:80%;
 height:200px;
 color:white;
 font-size:50px;
-margin-left:150px;
+margin-left:100px;
 margin-top:40px;
 background-color:yellow;
 }
 #text-3{
 margin-left:70px;
-width:80px;
+width:200px;
 background-color:red;
 }
 .apply-btn{
