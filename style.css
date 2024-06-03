@@ -14,8 +14,8 @@ background-color:black;
 position:absolute;
 margin-top:130px;
 margin-left:250px;
-width:60%;
-height:31%;
+width:80%;
+height:51%;
 background-size:cover; 
 visibility: hidden;
 }
@@ -38,7 +38,7 @@ visibility: hidden;
 .box{
 position:relative;
 width:100%px;
-height:1700px;
+height:1300px;
 background:transparent;
 border:1px solid #fff;
 z-index:1;
