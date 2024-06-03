@@ -167,18 +167,18 @@ margin-top:20px;
 margin-left:20px;
 height:80px;
 }
-.who-we-are p{
-font-family:arial;
-font-size:20px;
+.passage{
 margin-left:20px;
+width:90%;
+Font-family:arial;
+font-size:20px;
 }
+
 .outer-2{
 margin-top:70px;
 width:100%;
 height:500px;
 background-color:white;
-display: flex;
-justify-content:space-evenly;
 }
 .space{
 height:450px;
@@ -197,6 +197,64 @@ width:80px;
 height:80px;
 border-radius:50%;
 }
+.faq{
+margin-top:90px;
+font-family:arial;
+font-size:35px;
+text-align:center;
+}
+.outer-3{
+display:flex;
+justify-content:space-evenly;
+margin-top:40px;
+}
+.how-do-i-apply{
+width:90%;
+height:260px;
+background-color:white;
+border-radius:30px;
+}
+.how-do-i-apply h2{
+margin-top:20px;
+margin-left:20px;
+height:90px;
+}
+
+.outer-4{
+display:flex;
+justify-content:space-evenly;
+margin-top:40px;
+}
+.What-tech-roles{
+width:90%;
+height:300px;
+background-color:white;
+border-radius:30px;
+}
+.What-tech-roles h2{
+margin-top:20px;
+margin-left:20px;
+height:90px;
+}
+.outer-5{
+display:flex;
+justify-content:space-evenly;
+margin-top:40px;
+}
+.fee-to-apply{
+width:90%;
+height:260px;
+background-color:white;
+border-radius:30px;
+}
+.fee-to-apply h2{
+margin-top:20px;
+margin-left:20px;
+height:70px;
+}
+
+
+
 
 
 
