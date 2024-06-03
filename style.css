@@ -76,41 +76,19 @@ background-size:cover;
 width:100%;
 height:100%;
 }
-.center{
+.main-box-text{
 text-align:center;
+margin-top:420px;
 }
-.box-text{
+.main-box-text h1{
 color:#FF6500;
-font-size:80px;
-margin-top:1100px;
-width:100%;
-
-}
-.text-1{
-margin-left:200px;
-width:600px;
-height:90px;
-}
-.text-2{
-margin-top:-90px;
-margin-left:250px;
-width:500px;
-height:100px;
-
-}
-.suggestion-text{
-width:80%;
-height:60px;
-color:white;
 font-size:40px;
-margin-left:130px;
-margin-top:30px;
-}
-.text-3{   
-margin-left:150px;
-width:390px;
 
 }
+.main-box-text p{
+color:white;
+}
+
 .apply-btn{
 width:100%;
 height:100px;
@@ -346,34 +324,17 @@ background-size:cover;
 width:100%;
 height:100%;
 }
-.box-text{
+.main-box-text{
+text-align:center;
+margin-top:420px;
+}
+.main-box-text h1{
 color:#FF6500;
 font-size:40px;
-margin-top:400px;
-width:200px;
-height:30px;
-}
-.text-1{
-margin-left:50px;
-width:310px;
-}
-.text-2{
 
-margin-left:70px;
-width:288px;
 }
-.suggestion-text{
-width:80%;
-height:40px;
+.main-box-text p{
 color:white;
-font-size:17px;
-margin-left:40px;
-margin-top:100px;
-}
-.text-3{
-margin-left:50px;
-width:200px;
-
 }
 
 .apply-btn{
@@ -408,8 +369,9 @@ animation:pulsate 2s ease-in-out;
 background-color:#FEECE2;
 width:100%;
 height:4000px;
-
 }
+
+
 .outer-1{
 display:flex;
 justify-content:space-evenly;
