@@ -10,15 +10,30 @@ width:100%;
 height:1700px;
 background-color:black;
 }
-.techback-logo{
-width:100%;
-height:1400px;
-}
 .techlogo{
-width:100%;
-height:1100px;
-background-image:url("images/techlogo.jpg");
+position:absolute;
+margin-top:130px;
+margin-left:250px;
+width:60%;
+height:31%;
 background-size:cover; 
+visibility: hidden;
+}
+#logo{
+  width: 100%;
+  max-width: 300px;
+  visibility:visible;
+}
+#logo {
+  animation: rotate-logo 10s linear infinite;
+}
+@keyframes rotate-logo {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
 }
 .box{
 position:relative;
@@ -255,22 +270,37 @@ height:70px;
 
 
 @media screen and (max-width: 600px){
-.techback-logo{
-width:100%;
-height:700px;
-}
+
 .tech-photo-back{
 width:100%;
 height:700px;
 background-color:black;
 }
 .techlogo{
-width:100%;
-height:400px;
-background-image:url("images/techlogo.jpg");
+position:absolute;
+margin-top:150px;
+margin-left:70px;
+width:60%;
+height:31%;
 background-size:cover; 
+visibility: hidden;
+} 
+ #logo{
+  width: 100%;
+  max-width: 300px;
+  visibility:visible;
 }
-
+#logo {
+  animation: rotate-logo 10s linear infinite;
+}
+@keyframes rotate-logo {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}    
 .box{
 position:relative;
 width:359px;
@@ -479,5 +509,42 @@ margin-top:20px;
 margin-left:20px;
 height:70px;
 }
+.outer-6 {
+width:100%;
+margin-top:160px;
+display:flex;
+justify-content:space-evenly;
+}
+.Apply-Now{
+width:90%;
+height:500px;
+}
+.Apply-Now p{
+margin-top:40px;
+font-size:20px;
+}
 
+.Apply-Now img{
+border-radius:30px;
+margin-top:50px;
+}
+.outer-7 {
+width:100%;
+margin-top:100px;
+display:flex;
+justify-content:space-evenly;
+}
+.opportunities{
+width:90%;
+height:500px;
+}
+.opportunities p{
+margin-top:40px;
+font-size:20px;
+}
+
+.opportunities img{
+border-radius:30px;
+margin-top:50px;
+}
 }
