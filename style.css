@@ -247,8 +247,44 @@ margin-top:20px;
 margin-left:20px;
 height:70px;
 }
+.outer-6 {
+width:100%;
+margin-top:180px;
+display:flex;
+justify-content:space-evenly;
+}
+.Apply-Now{
+width:90%;
+height:500px;
+}
+.Apply-Now p{
+margin-top:40px;
+font-size:20px;
+}
 
+.Apply-Now img{
+border-radius:30px;
+margin-top:50px;
+}
+.outer-7 {
+width:100%;
+margin-top:300px;
+display:flex;
+justify-content:space-evenly;
+}
+.opportunities{
+width:90%;
+height:500px;
+}
+.opportunities p{
+margin-top:40px;
+font-size:20px;
+}
 
+.opportunities img{
+border-radius:30px;
+margin-top:50px;
+}
 
 
 
