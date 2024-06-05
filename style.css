@@ -69,8 +69,12 @@ width:47px;
 height:47px;
 margin-left:-8px;
 border-radius:50%;
-background-image:url("images/techlogo.jpg");
 background-size:cover;
+}
+.circle-logo img{
+width:47px;
+height:47px;
+border-radius:50%;
 }
 .menu-title{
 width:80%;
@@ -690,9 +694,13 @@ width:47px;
 height:47px;
 margin-left:-5px;
 border-radius:50%;
-background-image:url("images/techlogo.jpg");
 background-size:cover;
 }
+.circle-logo img{
+width:47px;
+height:47px;
+border-radius:50%;
+}  
 .menu-title{
 width:210px;
 height:40px;
