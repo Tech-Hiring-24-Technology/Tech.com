@@ -18,7 +18,7 @@
                                 <div class="circle-logo"><a href="https://tech-hiring-24-technology.github.io/Tech.com/"><img src="images/techlogo.jpg"></a></div>
                                 <div class="menu-title"><b> Tech Hiring 24 Technology</b> </div>
                                 <div class="outer-bar">
-                                          <div class="bar"></div>
+                                          <div class="bar"onclick=" openPopupmenu()></div>
                                </div>
                         </div>
                         <div class="main-box-text">                                 
@@ -254,5 +254,55 @@
  </div>
 </div>
 </footer>
+
+<!--popup for bar-->
+  <div class="popup-location-menu" id="popup1">
+          <div class="popup-head-menu">
+                  
+                  <div class="popup-head-menu-signin"><a href=" https://75shubhamsonar.github.io/Sign-in/" style="text-decoration:none"><i class="fa-regular fa-circle-user"></i></a></div>
+             <div>     <a href=" https://75shubhamsonar.github.io/Sign-in/"style="text-decoration:none"><p id="signin-text">Sign in</p></a></div>
+                  
+                  <div class="close-btn"onclick="closePopupmenu()">&times </div>
+          </div>
+          <ul class="menu">
+          <div><li><a href="https://tech-hiring-24-technology.github.io/Tech.com/"><h3>Home</h3></a></li></div>          
+         <!-- <div class="item"><a href=" "><h3>Jobs</h3></a></div>-->         
+         <div>  <li><a href="#"><h3>Jobs & Internship</h3></a>
+         <ul class="submenu">
+         <li> <a href="#">BSc & MSC</a></li>
+         <li><a href="#">BCA & MCA</a></li>
+         <li><a href="#">Engineering</a></li>
+         <li><a href="#">Internships</a></li>
+         </ul>
+         </li></div>
+         <div><li><a href="#"><h3>Apply For ATS Based Resume</h3> </a></li></div>
+         <div><li><a href="#"><h3>whatsapp Groups</h3> </a></li></div>
+         <div>  <li><a href="#"><h3>Services</h3></a>
+         <ul class="submenu1">
+         <li> <a href="#">web development</a></li>
+         <li><a href="#">black & white box testing</a></li>
+          </ul>
+         </li></div>
+         </ul> 
+   
+          
+          </div>
+          
+          
+          
+          
+ </div>
+
+ <script>
+ let popupmenu = document.getElementById("popup1");
+ function openPopupmenu() {
+ popupmenu.classList.add("open-popup-menu"); 
+ }
+ function closePopupmenu(){
+ popupmenu.classList.remove("open-popup-menu");
+ }
+ </script>
+ 
+  
 </body>
 </html>
