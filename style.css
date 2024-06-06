@@ -608,6 +608,162 @@ width:60%;
   color: #878787;
 }
 
+.popup-location-menu{
+width: 90%;
+height:290px;
+background-color:#C7C8CC;
+border-radius: 20px;
+position: absolute;
+top: 80%;
+transform: translate(-50%,-90%)scale(0.2);
+z-index:7;
+visibility:hidden;
+transition:transform 0.15s ,top 0s;
+}
+.open-popup-menu{
+visibility:visible;
+top: 78%;
+left:50%;
+transform: translate(-50%,-50%)scale(1);
+position:fixed;
+}
+.popup-head-menu{
+color:black;
+background-color:#C7C8CC;
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+height:40px;
+display:flex;
+text-align:center;
+align-items:center;
+border-bottom:2px solid black;
+}
+
+.popup-head-menu-signin i{
+width:20px;
+}
+.popup-head-menu p{
+text-align:center;
+margin-right:240px;
+width:50px;
+}
+#signin-text{
+color:black;
+}
+.popup-head-menu-signin a{
+color:black;
+}
+
+.close-btn {
+position:absolute;
+right:10px;
+top:5px;
+width:30px;
+height:30px;
+background:white;
+color:black;;
+font-size:30px;
+font-weight:600;
+line-height:30px;
+text-align:center;
+border-radius:50%
+}
+
+.menu {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width:80%;
+background-color:#C7C8CC ;
+}
+/* Style for the menu items */
+.menu li {
+display: inline-block;
+}
+/* Style for the links in the menu */
+
+.menu li a {
+display: block;
+padding: 10px 20px;
+text-decoration: none;
+color: #333;
+}
+/* Style for the submenu */
+.submenu {
+display: none;
+position: absolute;
+top:40px;
+width:60px;
+background-color: #f9f9f9;
+border: 1px solid #ccc;
+}
+/* Show the submenu on hover */
+.menu li:hover .submenu {
+//border:1px solid black;
+display: block;
+background-color:#C7C8CC;
+left:10px;
+top:90px;
+width:257px;
+}
+/* Style for the submenu items */
+.submenu li {
+display: block;
+}
+
+/* Style for the links in the submenu */
+.submenu li a {
+padding: 10px 10px;
+text-decoration: none;
+color: #333;
+
+}
+.submenu1 {
+display: none;
+position: absolute;
+top:40px;
+width:60px;
+background-color: #f9f9f9;
+border: 1px solid #ccc;
+}
+/* Show the submenu on hover */
+.menu li:hover .submenu1 {
+//border:1px solid black;
+display: block;
+background-color:#C7C8CC;
+left:10px;
+top:170px;
+width:257px;
+}
+/* Style for the submenu items */
+.submenu1 li {
+display: block;
+}
+
+/* Style for the links in the submenu */
+.submenu1 li a {
+padding: 10px 10px;
+text-decoration: none;
+color: #333;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1227,4 +1383,146 @@ width:60%;
   font-size: 14px;
   color: #878787;
 }
+
+.popup-location-menu{
+width: 90%;
+height:290px;
+background-color:#C7C8CC;
+border-radius: 20px;
+position: absolute;
+top: 80%;
+transform: translate(-50%,-90%)scale(0.2);
+z-index:7;
+visibility:hidden;
+transition:transform 0.15s ,top 0s;
+}
+.open-popup-menu{
+visibility:visible;
+top: 31%;
+left:50%;
+transform: translate(-50%,-50%)scale(1);
+position:fixed;
+}
+.popup-head-menu{
+color:black;
+background-color:#C7C8CC;
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+height:40px;
+display:flex;
+text-align:center;
+align-items:center;
+border-bottom:2px solid black;
+}
+
+.popup-head-menu-signin i{
+width:20px;
+}
+.popup-head-menu p{
+text-align:center;
+margin-right:240px;
+width:50px;
+}
+#signin-text{
+color:black;
+}
+.popup-head-menu-signin a{
+color:black;
+}
+
+.close-btn {
+position:absolute;
+right:10px;
+top:5px;
+width:30px;
+height:30px;
+background:white;
+color:black;;
+font-size:30px;
+font-weight:600;
+line-height:30px;
+text-align:center;
+border-radius:50%
+}
+
+.menu {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width:80%;
+background-color:#C7C8CC ;
+}
+/* Style for the menu items */
+.menu li {
+display: inline-block;
+}
+/* Style for the links in the menu */
+
+.menu li a {
+display: block;
+padding: 10px 20px;
+text-decoration: none;
+color: #333;
+}
+/* Style for the submenu */
+.submenu {
+display: none;
+position: absolute;
+top:40px;
+width:60px;
+background-color: #f9f9f9;
+border: 1px solid #ccc;
+}
+/* Show the submenu on hover */
+.menu li:hover .submenu {
+//border:1px solid black;
+display: block;
+background-color:#C7C8CC;
+left:10px;
+top:90px;
+width:257px;
+}
+/* Style for the submenu items */
+.submenu li {
+display: block;
+}
+
+/* Style for the links in the submenu */
+.submenu li a {
+padding: 10px 10px;
+text-decoration: none;
+color: #333;
+
+}
+.submenu1 {
+display: none;
+position: absolute;
+top:40px;
+width:60px;
+background-color: #f9f9f9;
+border: 1px solid #ccc;
+}
+/* Show the submenu on hover */
+.menu li:hover .submenu1 {
+//border:1px solid black;
+display: block;
+background-color:#C7C8CC;
+left:10px;
+top:170px;
+width:257px;
+}
+/* Style for the submenu items */
+.submenu1 li {
+display: block;
+}
+
+/* Style for the links in the submenu */
+.submenu1 li a {
+padding: 10px 10px;
+text-decoration: none;
+color: #333;
+
+  }
+  
+  
 }
